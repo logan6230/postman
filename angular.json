@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "postman"
+  "defaultProject": "postman",
+  "cli": {
+    "analytics": false
+  }
 }

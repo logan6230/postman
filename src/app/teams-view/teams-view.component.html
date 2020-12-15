@@ -1,0 +1,12 @@
+<div class="card teams-card-container">
+  <div class="teams-card-title-container">
+    <div class="teams-card-title">
+      Russia 2018 World Cup
+    </div>
+  </div>
+  <div class="teams-content">
+    <div style="height: 100%; overflow-y: scroll;">
+      <p *ngIf="loading" class="text-center">Loading data...</p>
+      <app-team *ngFor="let team of teams" [team]="team"></app-team>
+    </div>
+  </div>
